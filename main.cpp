@@ -1,12 +1,12 @@
 #include <iostream>
 #include <stdio.h>
 #include <string>
-//#include "spaceFix.h"
+#include "bracketCalculator.h"
+#include "spaceFixer.h"
 
 int main() {
     char c;
     std::string str;
-
     do {
         str = "";
         while ((c = getchar()) != '\n' && c != EOF) {
